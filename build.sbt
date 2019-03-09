@@ -10,6 +10,7 @@ lazy val root = (project in file("."))
     version := "1.0-SNAPSHOT",
     organization := "com.github.sobreera",
     libraryDependencies ++= Seq(
+      guice,
       "org.scalatestplus.play" %% "scalatestplus-play" % "4.0.0" % Test
     )
   )

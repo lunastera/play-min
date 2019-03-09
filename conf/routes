@@ -1,1 +1,1 @@
-GET		/		controllers.SampleController.get(name: Option[String])
+GET		/		com.github.sobreera.play_min.controllers.SampleController.get(name: Option[String])
